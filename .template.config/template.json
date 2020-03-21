@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chase Q. Aucoin",
+  "classifications": ["Custom", "WebApp", "MVC"],
+  "identity": "MyOrg.SecureWeb",
+  "name": "MyOrgs Secure Website",
+  "shortName": "secure-web",
+  "sourceName": "ChangeMe",
+  "symbols": {
+    "OktaDomain": {
+      "type": "parameter",
+      "defaultValue": "https://MyOrg.okta.com",
+      "replaces": "OktaDomainSymbol",
+      "isRequired": true
+    },
+    "ClientId": {
+      "type": "parameter",
+      "replaces": "ClientIdSymbol",
+      "isRequired": true
+    },
+    "ClientSecret": {
+      "type": "parameter",
+      "replaces": "ClientSecretSymbol",
+      "isRequired": true
+    }
+  }
+}

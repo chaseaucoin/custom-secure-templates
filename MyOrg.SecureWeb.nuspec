@@ -1,0 +1,14 @@
+<package>
+  <metadata>
+    <id>MyOrg.SecureWeb</id>
+    <version>1.0</version>
+    <authors>Chase Q Aucoin</authors>
+    <description>A Secure Web App for MyOrg</description>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>    
+    <file src="**" exclude="bin\**;obj\**;.vs\**;.vscode\**;.git\**;*.nuspec" target="content/" />
+  </files>
+</package>
